@@ -1,0 +1,812 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* HEADER */
+*{padding: 0; font-family; margin:0; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+   
+
+
+
+header .info-header{height: 50px;
+    margin: px;
+    margin-top: 0;}
+header .info-header .container{
+    display: grid;
+     grid-template-columns:0.5fr 0.7fr 0.1fr 0.2fr 0.2fr;
+      align-items: center; 
+      justify-items:end;}
+
+header .text{justify-self:start; font-size: ;}
+header .text{justify-self:start; font-size: ;}
+header .icons{font-size: 18px; color: #EAA451; display: flex; gap: 20px;}
+header .user-info img{ justify-content: end; margin-right: 19px; height: 40px;}
+header .search input{width: 460px; height: 44px; border-radius: 2%; background-color: #f5f5f5; border-style: none;}
+header .search ::placeholder{padding:30px; font-size: 16px;}
+header .search button{background-color: #f5f5f5; border-style: none; margin-right: 4px; cursor: pointer; width: 60px; height: 44px;}
+header .logo{justify-self: center;}
+
+
+header .mobile-menu-icon{display: none;}
+header .mobile-nav{display: none;}
+
+
+ header.mobile-menu-icon #toggle-menu {
+    display: block;
+}
+
+ header .mobile-nav {
+    display: block;
+}
+
+/* NAV */
+
+
+
+
+
+
+header nav{    height: 25px;
+    margin-top: 35px;
+}
+header nav ul { display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style-type: none;
+    font-size: 17px;
+    margin-left: 120px;
+    list-style: none;
+font-size:18px; color: #1A1667;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding: 2px;
+font-weight: 600; 
+width: 575px;}
+
+header nav a{text-decoration: none;}
+
+header .content{    display: grid;
+    grid-template-columns: 4fr 0.2fr;
+    grid-column-gap: 400px;}
+    header button{ background-color: #EAA451;
+        width: 215px;
+        color: #f5f5f5;
+        font-size: 17px;
+        height: 40px;
+        margin-right: 109px;
+        font-family: system-ui;
+        font-weight: 500;
+        border-style: none;
+    }
+
+/* NAV */
+
+
+
+
+/* MAIN */
+
+    main .container {
+        margin-top: 20px;
+        height:700px;
+        width: 100%;
+    background-color: rgb(16, 4, 60);}
+    main .content{display: grid; 
+        grid-template-columns: 2fr 1fr;}
+    main img{width: 686px; margin-left: 37px;}
+    main h4{    color: #F0BBE3;
+        line-height: 1.6;
+        letter-spacing: 20px; margin-left:20px;}
+        main h1{color: #ffff; font-size: 3.125rem; margin-left: 20px;}
+        main h5{font-size:1.125rem; color: #E5CCB8;}
+        main .content p{color:rgba(255, 255, 255, 0.8) borde;}
+        main .price1{    margin-bottom: 0px;
+            font-size: 30px;
+            font-weight: 600;
+        color: #EAA451;}
+        main .price2{font-family: );
+            font-style: normal;
+            font-weight: 400;
+            color: #E5CCB8;
+            margin-bottom: 0;
+            font-size: 18px;
+            padding: 0 10px;}
+            main .discount span{padding: 6px;
+                font-weight: 900;
+                background-color: #FF1E6F;
+                color: white;
+                border-radius: 4%;
+                align-self: center;
+                font-size: 18px;
+                width: 190px;
+                height: 79px;
+                text-align: center;
+            border-radius: 5%;}
+            main .second-title{display: flex; gap: 10px; margin-left: 100px;}
+main .button{display: flex; gap: 30px; margin-left: 160px; margin-top: -60px;}
+                
+main .btn1{
+                font-size: 17px;
+    padding: 12.5px 20px;
+    line-height: 1.5;
+    display: inline-flex;
+    border-radius: 8%;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #EAA451;
+    width: 133px;
+    border-color: #;
+}
+
+            main .btn2{font-size: 17px;
+                padding: 12.5px 20px;
+                line-height: 1.5;
+                display: inline-flex;
+                border-radius: 8%;
+                font-weight: 500;
+                font-family: "Poppins", sans-serif;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                background-color:lightblue;
+                width: 133px;
+            }
+
+                main .price{display: flex; align-items: center;}
+
+                main .main-text{ display: flex;
+                    flex-direction: column;
+                    gap: 34px; color: #f5f5f5;
+                }
+                main .best-m{
+                    margin-top: 135px;
+                    margin-left: 127px;}
+                    main .main-title{margin-left: 133px;
+                        margin-top: -18px;
+                    }
+                    main .second-title {margin-left: 170px;
+                        margin-top: -28px;
+                    display: flex; gap: 40px;}
+                    main .text{margin-left: 180px;}
+                    main .price{display: flex; gap: 25px; margin-left: 170px;}
+
+/* MAIN */
+
+
+
+
+                
+section#rcm .container .media1{margin-bottom: 20px;     position: relative;
+    overflow: hidden; }
+section#rcm .container{
+    width: 100%;
+    padding-right: var(15px);
+    padding-left: var( 15px);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+section#rcm h2  { text-align: center;
+margin-top: 60px;
+font-size: 37px;}
+
+section#rcm p{text-align: center; width: ;
+margin-bottom: 30px;
+font-size: 16px;
+line-height: 1.5;
+font-weight: 400;}
+
+section#rcm .R-books h4{text-align: center; font-size: 1.5rem; color: #1A1667; font-weight: 600; margin-top: 11px;}
+
+
+section#rcm .R-books p{
+display: block;
+    color: #EAA451;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;}
+
+    section#rcm .R-books .btn{width: 140px; height: 45px; border-radius: 10%; background-color: #1A1667; color: white; margin-left: 70px;
+        margin-top: -12px;}
+
+
+
+
+
+section#rcm .R-books{display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content: center;}
+
+section#rcm .container{
+width: 100%;
+height: 598px;
+padding-right: bs-gutter-x, ;
+padding-left: bs-gutter-x, 15px;
+margin-right: auto;
+margin-left: auto;}
+section#rcm .container h2{font-size: 29px;
+color: #1A1667;
+height: auto;}
+section#rcm .media1 img {height: auto; border-radius: 4%;}
+section#rcm .media2 img {border-radius: 4%;}
+section#rcm .media3 img {border-radius: 4%;}
+section#rcm .media4 img {border-radius: 4%;}
+section#rcm  h4{font-size: 30px;}
+
+
+
+
+
+
+
+
+
+
+section#quick .container{width: 100%; display: flex; height: 380px; margin-top: 0;}
+section#quick .content  {display: flex; flex-direction: row; text-align: center; align-items: center;}
+section#quick .content h5 {font-size: 23px; color:#1A1667; margin-bottom: 13px;}
+section#quick .content .icon{font-size: 29px; color: #EAA451; margin-bottom: 19px;}
+
+
+
+
+
+
+
+
+
+section#books-onsale{height: 500px;}
+
+section#books-onsale .container-books{width: 100%; height: 500px; background-color: rgb(255, 255, 255);}
+
+section#books-onsale .content-books { display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-evenly;
+    margin-left: ;
+    margin-right: ;
+    height: 500px;
+}
+section#books-onsale .content-books .price{display: flex; flex-direction: row; gap: 180px;}
+section#books-onsale .content-books img{border-radius: 4%;}
+
+section#books-onsale h3{text-align: center; color: #1A1667; font-size: 38px; margin-bottom: 30px; }
+section#books-onsale h5{font-size: 20px; color: #1A1667; text-align: center; margin-bottom: 14px;
+    margin-top: 12px;}
+section#books-onsale .price1{display: flex; justify-content: flex-end}
+section#books-onsale p{font-size: 2px; color:#1A1667}
+section#books-onsale span{color: #EAA451; font-size:29px;}
+section#books-onsale del{ color:#EAA451}
+
+
+
+
+
+
+
+
+section#testimonials .container{width: 100%; background-color; margin-top: 120px;}
+section#testimonials h3{ margin-bottom: 30px; text-align: center; font-weight: 600; font-size: 35px; color: #1A1667;}
+section#testimonials .permbajtja{display: flex; flex-direction: row; gap: 30px; justify-content: center; align-items: center;}
+section#testimonials .testimonials1{background-color:#EAA451; width: 418px; height: 307px; border-radius: 4%;}
+section#testimonials .pozicioni{background-color: margin-left: 130px; margin-bottom: 100px;}
+section#testimonials .icon{margin-top: 30px}
+section#testimonials p{margin-top: 50px; margin-left: 20px; margin-right: 10px; font-size: 19px; font-weight: 550; color: white; font-style: italic;}
+section#testimonials img{overflow: hidden; width: 65px; border-radius: 60%; border-color: aliceblue; margin-top: 40px; margin-left: 45px;} 
+section#testimonials .name{font-weight: 600; font-size: 18px;  margin-top:40px;}
+section#testimonials .position{margin-left: ; font-size: 16px; color:#ffff}
+section#testimonials .testimonial-detail{display: flex; flex-direction: row; align-items: center; gap: 30px;}
+section#testimonials h2{color: #ffff;}
+
+
+
+
+
+section#l .container{width: 100%;}
+section#l .content-l{ height: 400px;  display: flex; justify-content: center; gap: 80px; align-items: center; margin: 0;}
+section#l .icon{ margin-bottom: 10px; font-size: 70px; color: #EAA451 ; border-style: dotted; border-spacing: 10px; text-align: center;}
+section#l h2 { margin-bottom: 10px; text-align: center; font-size: 35px; color: #1A1667; }
+section#l span{margin-bottom: 14px;  font-size: 18px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section#Subscribe .container{width: 100%; height: 150px;}
+section#Subscribe .sub-content{display: flex; flex-direction: row; justify-content: center; gap: 30px; align-items: center;}
+section#Subscribe .sub-content .sub-text{    font-size: 20px;
+    font-weight: 600; margin-top: 19px; color: #1A1667;}
+    section#Subscribe .sub-form{display: flex; gap: 2px;     width: 620px;
+        height: 30px;
+        border-radius: 2%;
+        background-color: #f5f5f5;
+        border-style: none;}
+        section#Subscribe .sub-form input{
+            width: ;
+            border-style: dashed;
+        border-bottom: #;        }
+
+       section#Subscribe ::placeholder{padding:30px; font-size: 16px;}
+    section#Subscribe .sub-button .btn{ font-size: 20px;
+        line-height: ;
+        display: inline-flex;
+        border-radius: 6%;
+        padding: 12.5px 20px;
+        font-weight: 500;
+        font-family: system-ui;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #EAA451;
+        width: 146px;
+        height: 60px;
+        border-color: ffff;
+    color: #f5f5f5;
+border-style: none;}
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+footer {height: 300px;}
+footer .logo{ margin-bottom: 17px;
+    margin-top:  width: 300px; justify-self: center;}
+footer h4{ margin-bottom: 14px; list-style: circle; font-size: 24px; font-weight: 600px; color: #1A1667; text-align: center;}
+footer .icon ul{     display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    font-size: 25px;
+    color: #EAA451;;}
+    footer ul{list-style: none; font-size: 18px;}
+    footer .list2 li{margin-bottom: 30px; text-align: justify;}
+    footer p{font-size: 18px;     font-size: 18px;
+        margin-top: 2px;
+        margin-bottom: 30px;}
+    footer .list2 li{display: flex; gap: 15px; font-size: 17px;}
+    footer .list2 i{color: #EAA451; font-size: 25px ;}
+    footer .list2{margin-bottom: 16px;}
+
+    footer .content {
+        display: grid;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-items: baseline;
+    }
+    footer .list1{justify-self: center;}
+    footer .logo{justify-self: start; margin-left: 10px;}
+
+
+    @media (max-width: 576px) {
+        *{  
+            overflow-x:hidden ;}
+        
+
+        header nav{display: none;}
+        header .info-header .search {display: none;}
+        header .info-header .icons {display: none;}
+        header .info-header .user-info{display: none;}
+        header .mobile-menu-icon{display: block;}        
+    
+        header .info-header .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            justify-items: end;}
+
+            header .info-header .mobile-menu-icon {
+                margin-right: 15px;
+                font-size: 41px;
+                color: #EAA451;
+            }
+
+
+
+
+
+
+
+
+        header .info-header #toggle-menu {
+            display: none;
+        }
+    
+        header .info-header .mobile-nav {
+            box-sizing: border-box !important;
+            width: 90%;
+            height: 70vh;
+            display: none;
+            position: fixed;
+            top: 120px;
+            left: 5%;
+            background-color: gray;
+            border-radius: 8px;
+        }
+    
+        header .info-header #toggle-menu:checked~.mobile-nav {
+            display: block;
+        }
+    
+        header .info-header .mobile-nav ul li { display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            font-size: px;
+            color: white;
+            font-size: 40px;
+    margin-left: 25px;
+    font-family: system-ui;
+        }
+    
+        header .info-header .mobile-nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: unset;
+        margin-top: 30px;
+
+
+
+    
+        }
+
+        header .info-header .logo{width: 260px;
+            margin-left: 21px;}
+header .info-header .discount span{
+            height: 26px;
+            width: 129px;
+            font-size: 18px;
+        }
+
+
+        main .container {
+            margin-top: px;
+            height: 1277px;
+            width: 100%;
+            background-color: rgb(16, 4, 60);}
+
+            main .content {
+                display: grid;
+                grid-template-columns: 1fr;
+                justify-content: center;}
+
+                main .main-text {
+                     
+                        display: flex;
+                        flex-direction: column;
+                        gap: 34px;
+                        margin-left: 0;
+                        color: #f5f5f5;
+                        width: 100%;
+                        width: 652px;
+                    h}
+
+    main .main-title{    margin-left: 109px;
+        margin-top: -18px;
+    }
+        main h1 {
+            color: #ffff;
+            font-size: 38px;
+            margin-left: 27px;}
+            main .text {width: 386px;
+            margin-left: 144px;}
+
+            main img {
+                width: 385px;
+                margin-left: 141px;
+                height: 633px;
+                MARGIN-TOP: 16px;
+                height: 684px;
+            }
+                            section#rcm {
+                            width: 1000px;
+                            height: 2544px;}
+        
+                        section#rcm .container {
+                            width: 100%;
+                            height: 2500px;
+                         
+                                                    }
+
+                            section#rcm h2{width: 403px;}
+
+                            section#rcm .R-books h4 {
+                                text-align: center;
+                                font-size: 1.8rem;
+                                color: #1A1667;
+                                font-weight: 600;
+                                margin-top: 11px;
+                                width: 314px;
+                                margin-left: -26px;}
+
+                                section#rcm .R-books .btn {
+                                    width: 144px;
+                                    height: 56px;
+                                    border-radius: 10%;
+                                    background-color: #1A1667;
+                                    color: white;
+                                    margin-left: 58px;
+                                    font-size: 15px;
+                                    margin-top: -12px;
+                                    font-family: sans-serif;
+                                    margin-left: 50px;}
+                                    section#rcm p {
+                                        text-align: center;
+                                        margin-bottom: 30px;
+                                        font-size: 16px;
+                                        line-height: 1.5;
+                                        font-weight: 400;
+                                        width: 392px;
+                                    }
+                                    section#rcm .R-books p {
+                                        display: block;
+                                        color: #EAA451;
+                                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                        font-size: 25px;
+                                        font-weight: 500;
+                                        margin-top: 15px;
+                                        margin-left: -73px;
+                                    }
+                                   
+
+
+
+
+
+
+
+
+
+
+                            section#quick .container {
+                                width: 100%;
+                                display: flex;
+                                height: 880px;
+                                margin-top: 30px;
+                            }
+            
+    
+
+                            section#quick .content {
+                                display: grid;
+                                text-align: center;
+                                align-items: center;
+                                grid-template-columns: 1fr;
+                                gap: 43;
+                                grid-column-gap: 46px;
+                                grid-row-gap: 21px;
+                            }
+                            section#quick .container {
+                                width: 100%;
+                                display: flex;
+                                height: 806px;
+                                margin-bottom: 44px;}
+
+
+                            section#rcm .R-books{display: flex;
+                                flex-direction: column;
+                                width: 600px;
+                                height: 2300px;
+                                justify-content: center;
+                                align-items: center;
+                                margin-left: -66px}
+    
+                           
+            
+            
+            
+                            section#books-onsale h5 {
+                                font-size: 26px;
+                                color: #1A1667;
+                                text-align: center;
+                                margin-bottom: 14px;
+                                margin-top: 12px;
+                                margin-right: 128px;
+                            }
+                            section#books-onsale span {
+                                margin-left: 160px;
+                                font-size: 28px;
+                                font-weight: 600;
+                                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            }
+
+
+                             section#books-onsale {height: 2248px;
+                                width: 700px;}
+                            
+                              section#books-onsale .container-books {
+                                width: 100%;
+                                height: 2217px;
+                                background-color: rgb(255, 255, 255);
+                                margin-top: 11px;}
+            
+                        
+                            section#books-onsale .content-books {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 24px;
+                                justify-content: center;
+                                width: 500px;
+                                height: 2000px;
+                                 align-items: center;
+                                 margin-left: 16px;
+                            }
+
+                            section#books-onsale .container-books .book1{
+                                width: 381px;
+                                align-items: center;
+                                height: 494px;
+                            }
+
+                            section#books-onsale h3 {
+                                text-align: center;
+                                color: #1A1667;
+                                font-size: 38px;
+                                margin-bottom: 58px;
+                                width: 400px
+                            }
+
+                            section#testimonials .container{width: 100%; background-color; margin-top: 0;}
+        
+        
+                           section#l .content-l {
+                            height: 400px;
+                            display: grid;
+                            justify-content: center;
+                            gap: 80px;
+                            align-items: center;
+                            margin: 0;
+                            grid-template-columns: 1fr 1fr;
+                            grid-column-gap: 36px;
+                            grid-row-gap: 14px;
+                            text-align: center;
+                        }
+
+
+
+                        section#testimonials .permbajtja {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 30px;
+                            justify-content: center;
+                            align-items: center;
+                        }
+        
+        
+        
+
+
+
+
+
+        section#l .content-l {
+            height: 836px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            grid-column-gap: 36px;
+            grid-row-gap: 14px;
+            text-align: center;
+            flex-direction: column;
+            gap: 29px;
+    }
+    section#Subscribe .container {
+        width: 100%;
+        height: 236px;
+    }
+    section#Subscribe .sub-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        align-items: center;
+    }
+    section#Subscribe .sub-form {
+        display: flex;
+        gap: 2px;
+        width: 382px;
+        height: 60px;
+        border-radius: 2%;
+        background-color: #f5f5f5;
+        border-style: none;
+        margin-left: 5px;
+    
+    }
+
+    section#Subscribe .sub-button .btn {
+        font-size: 20px;
+        line-height: ;
+        display: inline-flex;
+        border-radius: 6%;
+        padding: 12.5px 20px;
+        font-weight: 500;
+        font-family: system-ui;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #EAA451;
+        width: 114px;
+        height: 60px;
+        border-color: ffff;
+        color: #f5f5f5;
+        border-style: none;
+        margin-right: 130px;}
+
+        section#Subscribe .sub-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 24px;
+            align-items: center;
+            margin-left: 8px;}
+
+
+            footer {
+                height: 1058PX;}
+                
+
+            footer .content {
+                display: flex;
+                flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: baseline;
+            }
+
+          
+            footer p {
+                font-size: 18px;
+                font-size: 18px;
+                margin-top: 15px;
+                margin-bottom: 30px;
+            }
+            
+            
+
+            footer .icon ul {
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                list-style: none;
+                font-size: 25px;
+                color: #EAA451;
+                justify-content: center;
+            }
+
+
+
+            }
